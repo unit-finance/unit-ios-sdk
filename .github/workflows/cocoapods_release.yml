@@ -1,0 +1,17 @@
+name: Cocoapods Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: macos-15
+
+    steps:
+    - uses: actions/checkout@v2
+        
+    - name: Publish to CocoaPod
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
+      run: ./release.sh
