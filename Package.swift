@@ -14,18 +14,15 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UnitCommon",
-            url: "https://github.com/unit-finance/unit-ios-sdk/releases/download/0.0.0/UnitCommon.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000" // UnitCommon
+            path: "UnitCommon.xcframework"
         ),
         .binaryTarget(
             name: "UnitFraud",
-            url: "https://github.com/unit-finance/unit-ios-sdk/releases/download/0.0.0/UnitFraud.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000" // UnitFraud
+            path: "UnitFraud.xcframework"
         ),
         .binaryTarget(
             name: "UnitSDK",
-            url: "https://github.com/unit-finance/unit-ios-sdk/releases/download/0.0.0/UnitSDK.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000" // UnitSDK
+            path: "UnitSDK.xcframework"
         ),
     ]
 )
