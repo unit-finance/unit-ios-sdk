@@ -1,0 +1,39 @@
+name: Prepare Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  prepare-release:
+    name: Create draft release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from commit message
+        run: |
+          VERSION=$(git log -1 --pretty=%B | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?' | head -1)
+          if [ -z "$VERSION" ]; then
+            echo "No version found in commit message, skipping."
+            exit 0
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Create tag
+        if: env.VERSION != ''
+        run: |
+          git tag "${{ env.VERSION }}"
+          git push origin "${{ env.VERSION }}"
+
+      - name: Create draft release
+        if: env.VERSION != ''
+        run: |
+          gh release create "${{ env.VERSION }}" \
+            --title "Version ${{ env.VERSION }}" \
+            --notes "Release ${{ env.VERSION }}" \
+            --draft
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
