@@ -1,7 +1,9 @@
 name: Prepare Release
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - main
 
@@ -9,27 +11,17 @@ jobs:
   prepare-release:
     name: Create draft release
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/')
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract version from commit message
+      - name: Extract version from PR title
         run: |
-          VERSION=$(git log -1 --pretty=%B | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?' | head -1)
-          if [ -z "$VERSION" ]; then
-            echo "No version found in commit message, skipping."
-            exit 0
-          fi
+          VERSION=$(echo "${{ github.event.pull_request.title }}" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?')
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Create tag
-        if: env.VERSION != ''
-        run: |
-          git tag "${{ env.VERSION }}"
-          git push origin "${{ env.VERSION }}"
-
       - name: Create draft release
-        if: env.VERSION != ''
         run: |
           gh release create "${{ env.VERSION }}" \
             --title "Version ${{ env.VERSION }}" \
