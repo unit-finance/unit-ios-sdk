@@ -7,9 +7,9 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class UnitCommon {
+@_hasMissingDesignatedInitializers public class UnitCommonSDK {
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class UnitCommonSDK {
+@_hasMissingDesignatedInitializers public class UnitCommon {
   @objc deinit
 }
