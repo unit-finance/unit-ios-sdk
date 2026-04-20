@@ -12,17 +12,21 @@ let package = Package(
         .library(name: "UnitSDK", targets: ["UnitSDK"]),
     ],
     targets: [
-        .binaryTarget(
-            name: "UnitCommon",
-            path: "UnitCommon.xcframework"
-        ),
-        .binaryTarget(
+        // Binary targets
+        .binaryTarget(name: "UnitCommon", path: "UnitCommon.xcframework"),
+        .binaryTarget(name: "_UnitFraud", path: "UnitFraud.xcframework"),
+        .binaryTarget(name: "_UnitSDK", path: "UnitSDK.xcframework"),
+
+        // Wrapper targets so SPM knows the dependency graph
+        .target(
             name: "UnitFraud",
-            path: "UnitFraud.xcframework"
+            dependencies: ["_UnitFraud", "UnitCommon"],
+            path: "Sources/UnitFraud"
         ),
-        .binaryTarget(
+        .target(
             name: "UnitSDK",
-            path: "UnitSDK.xcframework"
+            dependencies: ["_UnitSDK", "UnitFraud", "UnitCommon"],
+            path: "Sources/UnitSDK"
         ),
     ]
 )
