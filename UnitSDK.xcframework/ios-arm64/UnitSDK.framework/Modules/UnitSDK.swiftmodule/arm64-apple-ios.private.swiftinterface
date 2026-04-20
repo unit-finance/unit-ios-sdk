@@ -9,6 +9,10 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class Unit {
+  public static let manager: any UnitSDK.UNSDKManagerProtocol
+  @objc deinit
+}
 public enum UNSDKError : Swift.Error, Swift.Codable {
   case generalError
   public var description: Swift.String {
@@ -25,10 +29,6 @@ public enum UNSDKError : Swift.Error, Swift.Codable {
 public protocol UNSDKManagerProtocol {
   func initialize()
   var fraud: any UnitFraud.UNFraudManagerProtocol { get }
-}
-@_hasMissingDesignatedInitializers public class Unit {
-  public static let manager: any UnitSDK.UNSDKManagerProtocol
-  @objc deinit
 }
 extension UnitSDK.UNSDKError : Swift.Equatable {}
 extension UnitSDK.UNSDKError : Swift.Hashable {}
