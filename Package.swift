@@ -25,7 +25,7 @@ let package = Package(
         ),
         .target(
             name: "UnitSDK",
-            dependencies: ["_UnitSDK", "UnitFraud", "UnitCommon"],
+            dependencies: ["_UnitSDK", "UnitFraud"],
             path: "Sources/UnitSDK"
         ),
     ]
