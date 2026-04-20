@@ -1,0 +1,6 @@
+framework module UnitSDK {
+  umbrella header "UnitSDK.h"
+  export *
+
+  module * { export * }
+}
