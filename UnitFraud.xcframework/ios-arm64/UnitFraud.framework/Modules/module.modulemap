@@ -1,0 +1,6 @@
+framework module UnitFraud {
+  umbrella header "UnitFraud.h"
+  export *
+
+  module * { export * }
+}
