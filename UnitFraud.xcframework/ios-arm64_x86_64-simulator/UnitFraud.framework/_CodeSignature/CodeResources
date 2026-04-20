@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fz+mmCNt/BoIJJQT+V58/t0mPCQ=
+		fGeUUqjybLNDBzNzlUTA1KzGBkw=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HIkRpPSq1Gcl0HzQh23nQpA8y+A=
+		vEIq73u0BSHVL0hsbAS5OC0DWvg=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HIkRpPSq1Gcl0HzQh23nQpA8y+A=
+		vEIq73u0BSHVL0hsbAS5OC0DWvg=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SpzHriC5fS141OSFlr+Ym1Td6uo=
+		jOknvqgomRO9YT1TnNiWb7mpibQ=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fz+mmCNt/BoIJJQT+V58/t0mPCQ=
+		fGeUUqjybLNDBzNzlUTA1KzGBkw=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VzIIlnAlYGm+UPznA9td37kDK5A=
+		+l0ccar+N3s8YQJjLBq84rhFh9U=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VzIIlnAlYGm+UPznA9td37kDK5A=
+		+l0ccar+N3s8YQJjLBq84rhFh9U=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oo0KLRfPTCE4uZBy1aaO6Z/X1U0=
+		3xERiOLbQmRFprOO1kz1sy+mVug=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXo4hazQwe9ay8SwEjTH6nA/I+vTlbwn0X6NKKpVBNM=
+			P8yBUwCdyWBx8HJhJjgdtiiK2kN3spzK2s1WV9BJgrU=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			th6NxEjkl67pw/ejPKqungnLGED/zcA7wF2T6Tnf+xE=
+			u8W7B6/FearMBFgj1/MhqWvEF6AqYemeQ5XSeBOpzNI=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +95,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			th6NxEjkl67pw/ejPKqungnLGED/zcA7wF2T6Tnf+xE=
+			u8W7B6/FearMBFgj1/MhqWvEF6AqYemeQ5XSeBOpzNI=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0F2HTrkT6i7T5DKfKRx/YSGRmmwPTp4yDk5dbbY8pTs=
+			asH1KFjNNe6TdTDHooxVtF3iH+l+IqiTo+nVJlwISdk=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXo4hazQwe9ay8SwEjTH6nA/I+vTlbwn0X6NKKpVBNM=
+			P8yBUwCdyWBx8HJhJjgdtiiK2kN3spzK2s1WV9BJgrU=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aC0kLBxY6ZMM8urtUeUPOnIifXcnDjDq1XEwMTXv7lQ=
+			RCDNFQcbLEh9S9URZduAOah4dxNT2VqABTc2QT3gH3Q=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +130,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aC0kLBxY6ZMM8urtUeUPOnIifXcnDjDq1XEwMTXv7lQ=
+			RCDNFQcbLEh9S9URZduAOah4dxNT2VqABTc2QT3gH3Q=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCGuaDO6UhceJEMQyHAcO8jlNs1NZWxrvqYJZ39/jAg=
+			8v4ZhpHVMyE6GBacGslqoG7vGuEYYxIcxPFL6pBl5Bc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
