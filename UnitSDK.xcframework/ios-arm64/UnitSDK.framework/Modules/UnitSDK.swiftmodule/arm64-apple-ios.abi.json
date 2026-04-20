@@ -6,98 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Unit",
-        "printedName": "Unit",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "manager",
-            "printedName": "manager",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UNSDKManagerProtocol",
-                "printedName": "any UnitSDK.UNSDKManagerProtocol",
-                "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
-            "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
-            "moduleName": "UnitSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNSDKManagerProtocol",
-                    "printedName": "any UnitSDK.UNSDKManagerProtocol",
-                    "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
-                "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
-                "moduleName": "UnitSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7UnitSDK0A0C",
-        "mangledName": "$s7UnitSDK0A0C",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UnitFraud",
         "printedName": "UnitFraud",
         "declKind": "Import",
@@ -495,6 +403,98 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Unit",
+        "printedName": "Unit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNSDKManagerProtocol",
+                "printedName": "any UnitSDK.UNSDKManagerProtocol",
+                "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
+            "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
+            "moduleName": "UnitSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNSDKManagerProtocol",
+                    "printedName": "any UnitSDK.UNSDKManagerProtocol",
+                    "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
+                "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
+                "moduleName": "UnitSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7UnitSDK0A0C",
+        "mangledName": "$s7UnitSDK0A0C",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
