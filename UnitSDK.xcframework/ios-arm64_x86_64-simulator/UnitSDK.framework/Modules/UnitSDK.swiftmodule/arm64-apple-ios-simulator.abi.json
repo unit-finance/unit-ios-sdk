@@ -6,203 +6,6 @@
     "children": [
       {
         "kind": "TypeDecl",
-        "name": "UNSDKManagerProtocol",
-        "printedName": "UNSDKManagerProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7UnitSDK20UNSDKManagerProtocolP10initializeyyF",
-            "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP10initializeyyF",
-            "moduleName": "UnitSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : UnitSDK.UNSDKManagerProtocol>",
-            "sugared_genericSig": "<Self where Self : UnitSDK.UNSDKManagerProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "fraud",
-            "printedName": "fraud",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UNFraudManagerProtocol",
-                "printedName": "any UnitFraud.UNFraudManagerProtocol",
-                "usr": "s:9UnitFraud22UNFraudManagerProtocolP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvp",
-            "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvp",
-            "moduleName": "UnitSDK",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNFraudManagerProtocol",
-                    "printedName": "any UnitFraud.UNFraudManagerProtocol",
-                    "usr": "s:9UnitFraud22UNFraudManagerProtocolP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvg",
-                "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvg",
-                "moduleName": "UnitSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : UnitSDK.UNSDKManagerProtocol>",
-                "sugared_genericSig": "<Self where Self : UnitSDK.UNSDKManagerProtocol>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7UnitSDK20UNSDKManagerProtocolP",
-        "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UnitFraud",
-        "printedName": "UnitFraud",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "Exported",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Unit",
-        "printedName": "Unit",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "manager",
-            "printedName": "manager",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UNSDKManagerProtocol",
-                "printedName": "any UnitSDK.UNSDKManagerProtocol",
-                "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
-            "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
-            "moduleName": "UnitSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNSDKManagerProtocol",
-                    "printedName": "any UnitSDK.UNSDKManagerProtocol",
-                    "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
-                "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
-                "moduleName": "UnitSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:7UnitSDK0A0C",
-        "mangledName": "$s7UnitSDK0A0C",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UNSDKError",
         "printedName": "UNSDKError",
         "children": [
@@ -496,6 +299,203 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNSDKManagerProtocol",
+        "printedName": "UNSDKManagerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7UnitSDK20UNSDKManagerProtocolP10initializeyyF",
+            "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP10initializeyyF",
+            "moduleName": "UnitSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UnitSDK.UNSDKManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : UnitSDK.UNSDKManagerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "fraud",
+            "printedName": "fraud",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNFraudManagerProtocol",
+                "printedName": "any UnitFraud.UNFraudManagerProtocol",
+                "usr": "s:9UnitFraud22UNFraudManagerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvp",
+            "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvp",
+            "moduleName": "UnitSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNFraudManagerProtocol",
+                    "printedName": "any UnitFraud.UNFraudManagerProtocol",
+                    "usr": "s:9UnitFraud22UNFraudManagerProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvg",
+                "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP5fraud0A5Fraud014UNFraudManagerD0_pvg",
+                "moduleName": "UnitSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UnitSDK.UNSDKManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : UnitSDK.UNSDKManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7UnitSDK20UNSDKManagerProtocolP",
+        "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Unit",
+        "printedName": "Unit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNSDKManagerProtocol",
+                "printedName": "any UnitSDK.UNSDKManagerProtocol",
+                "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
+            "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ",
+            "moduleName": "UnitSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNSDKManagerProtocol",
+                    "printedName": "any UnitSDK.UNSDKManagerProtocol",
+                    "usr": "s:7UnitSDK20UNSDKManagerProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
+                "mangledName": "$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ",
+                "moduleName": "UnitSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7UnitSDK0A0C",
+        "mangledName": "$s7UnitSDK0A0C",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitFraud",
+        "printedName": "UnitFraud",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
         ]
       }
     ],

@@ -10,6 +10,15 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol UNFraudManagerProtocol {
+  func initialize()
+  func getDeviceFingerprint(completion: @escaping UnitFraud.UNDeviceFingerprintCompletion)
+}
+public typealias UNDeviceFingerprintCompletion = (Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>) -> Swift.Void
+@_hasMissingDesignatedInitializers public class UnitFraudSDK {
+  public static let manager: any UnitFraud.UNFraudManagerProtocol
+  @objc deinit
+}
 public enum UNFingerprintError : Swift.Error, Swift.Codable {
   case generalError
   case socureInitializeError
@@ -37,15 +46,6 @@ public enum UNFingerprintProvider {
 public struct UNFingerprintResult {
   public let provider: UnitFraud.UNFingerprintProvider
   public let value: Swift.String
-}
-public protocol UNFraudManagerProtocol {
-  func initialize()
-  func getDeviceFingerprint(completion: @escaping UnitFraud.UNDeviceFingerprintCompletion)
-}
-public typealias UNDeviceFingerprintCompletion = (Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>) -> Swift.Void
-@_hasMissingDesignatedInitializers public class UnitFraudSDK {
-  public static let manager: any UnitFraud.UNFraudManagerProtocol
-  @objc deinit
 }
 extension UnitFraud.UNFingerprintError : Swift.Equatable {}
 extension UnitFraud.UNFingerprintError : Swift.Hashable {}
