@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UnitSDK
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Foundation
+import Swift
+@_exported import UnitFraud
+@_exported import UnitSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum UNSDKError : Swift.Error, Swift.Codable {
+  case generalError
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: UnitSDK.UNSDKError, b: UnitSDK.UNSDKError) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol UNSDKManagerProtocol {
+  func initialize()
+  var fraud: any UnitFraud.UNFraudManagerProtocol { get }
+}
+@_hasMissingDesignatedInitializers public class Unit {
+  public static let manager: any UnitSDK.UNSDKManagerProtocol
+  @objc deinit
+}
+extension UnitSDK.UNSDKError : Swift.Equatable {}
+extension UnitSDK.UNSDKError : Swift.Hashable {}

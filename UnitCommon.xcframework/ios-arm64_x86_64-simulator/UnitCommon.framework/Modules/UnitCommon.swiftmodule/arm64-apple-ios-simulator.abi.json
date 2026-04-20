@@ -1,0 +1,70 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UnitCommon",
+    "printedName": "UnitCommon",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "UnitCommonSDK",
+        "printedName": "UnitCommonSDK",
+        "declKind": "Class",
+        "usr": "s:10UnitCommon0aB3SDKC",
+        "mangledName": "$s10UnitCommon0aB3SDKC",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnitCommon",
+        "printedName": "UnitCommon",
+        "declKind": "Class",
+        "usr": "s:10UnitCommonAAC",
+        "mangledName": "$s10UnitCommonAAC",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
