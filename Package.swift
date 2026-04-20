@@ -13,7 +13,17 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "UnitCommon", path: "UnitCommon.xcframework"),
-        .binaryTarget(name: "UnitFraud", path: "UnitFraud.xcframework"),
-        .binaryTarget(name: "UnitSDK", path: "UnitSDK.xcframework"),
+        .binaryTarget(name: "_UnitFraud", path: "UnitFraud.xcframework"),
+        .binaryTarget(name: "_UnitSDK", path: "UnitSDK.xcframework"),
+        .target(
+            name: "UnitFraud",
+            dependencies: ["_UnitFraud", "UnitCommon"],
+            path: "Sources/UnitFraud"
+        ),
+        .target(
+            name: "UnitSDK",
+            dependencies: ["_UnitSDK", "UnitFraud"],
+            path: "Sources/UnitSDK"
+        ),
     ]
 )
