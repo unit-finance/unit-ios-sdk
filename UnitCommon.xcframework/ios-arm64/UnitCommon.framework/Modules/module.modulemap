@@ -1,0 +1,6 @@
+framework module UnitCommon {
+  umbrella header "UnitCommon.h"
+  export *
+
+  module * { export * }
+}
