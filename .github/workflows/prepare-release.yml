@@ -1,6 +1,11 @@
 name: Prepare Release
 
 on:
+  workflow_dispatch:
+    inputs:
+      version_number:
+        description: Version number (e.g. 1.2.3)
+        required: true
   pull_request:
     types:
       - closed
@@ -11,14 +16,18 @@ jobs:
   prepare-release:
     name: Create draft release
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/')
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/'))
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract version from PR title
+      - name: Extract version
         run: |
-          VERSION=$(echo "${{ github.event.pull_request.title }}" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?')
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ inputs.version_number }}"
+          else
+            VERSION=$(echo "${{ github.event.pull_request.title }}" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?')
+          fi
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Create draft release
