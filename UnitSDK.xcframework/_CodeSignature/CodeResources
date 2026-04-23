@@ -16,10 +16,6 @@
 		<data>
 		TmUMbIIHiKG79L3OEtbIgeLLnMQ=
 		</data>
-		<key>ios-arm64/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<data>
-		nj7eze4quy+ieIaMP5FChj0sm8c=
-		</data>
 		<key>ios-arm64/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		DwKxbRY3PTg6QerBPsljqUQjn1g=
@@ -42,7 +38,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/DWARF/UnitSDK</key>
 		<data>
-		OChk/EmSbo0hEdnRyzIJQ6LiC6c=
+		HA4HyxDMQd0IzJS12T46N+s41zs=
 		</data>
 		<key>ios-arm64/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/UnitSDK.yml</key>
 		<data>
@@ -60,10 +56,6 @@
 		<data>
 		qmeCEirrUaOWILjpEm0gnrAikk4=
 		</data>
-		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		hyQ8E0KcXHiHf6C2w4F+5G7Snlo=
-		</data>
 		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		4rckdiZVxAk3yQ3P7euXN5g2qJY=
@@ -75,10 +67,6 @@
 		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		qmeCEirrUaOWILjpEm0gnrAikk4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		o099P+BX0Z+2obIvLYmObcQw9ng=
 		</data>
 		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/DWARF/UnitSDK</key>
 		<data>
-		t0jwabk1imAa9TwUqoA0m0WHne0=
+		jUTC+RXLKkEfde8o+6L0V4gK2fs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/UnitSDK.yml</key>
 		<data>
@@ -150,17 +138,6 @@
 			<key>hash2</key>
 			<data>
 			Khc3/5mAKZFtrDBzOE+AW8ZUZh4H/d5yJJq2hXjcK8Y=
-			</data>
-		</dict>
-		<key>ios-arm64/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nj7eze4quy+ieIaMP5FChj0sm8c=
-			</data>
-			<key>hash2</key>
-			<data>
-			NiubpH3DZ5PR59YJ9VMFJg0NBdRulOxEygbr3enN8A4=
 			</data>
 		</dict>
 		<key>ios-arm64/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -222,11 +199,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OChk/EmSbo0hEdnRyzIJQ6LiC6c=
+			HA4HyxDMQd0IzJS12T46N+s41zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JeZBZvsfpxEEUohHpBRqfPOJX9QbCVHa0anOnG9/Ja4=
+			zNo4c3MkzPF9KY6K8ZJgbK8mO+qoQ/WIU7DepZm1IAw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/UnitSDK.yml</key>
@@ -273,17 +250,6 @@
 			Susd85zDsz1Iu6eYu+YXtVtoB9OCu9mp68IkfdWvCRc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hyQ8E0KcXHiHf6C2w4F+5G7Snlo=
-			</data>
-			<key>hash2</key>
-			<data>
-			WfoiizEJ/kYVhLBvg6eLKp+5l9HgAc9jrpE49i4IhFc=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -315,17 +281,6 @@
 			<key>hash2</key>
 			<data>
 			Susd85zDsz1Iu6eYu+YXtVtoB9OCu9mp68IkfdWvCRc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o099P+BX0Z+2obIvLYmObcQw9ng=
-			</data>
-			<key>hash2</key>
-			<data>
-			FwEKRZPkV+y5j/jV0m2umyHxBsivhbD2VF9cF3L60Ec=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/UnitSDK.framework/Modules/UnitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -398,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t0jwabk1imAa9TwUqoA0m0WHne0=
+			jUTC+RXLKkEfde8o+6L0V4gK2fs=
 			</data>
 			<key>hash2</key>
 			<data>
-			kN0OD2U/Yj2XckhHISCvCIrSrhl5yuHjyTsY1dl0vyg=
+			Z3t8e4xM59PBpApy1Cplp85AwTdH4RSYHw+cPeX+WXk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/UnitSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/UnitSDK.yml</key>

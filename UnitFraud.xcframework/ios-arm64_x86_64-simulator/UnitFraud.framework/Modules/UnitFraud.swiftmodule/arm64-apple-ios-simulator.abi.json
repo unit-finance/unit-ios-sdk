@@ -5,33 +5,6 @@
     "printedName": "UnitFraud",
     "children": [
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FraudForce",
-        "printedName": "FraudForce",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UNFingerprintError",
         "printedName": "UNFingerprintError",
@@ -403,6 +376,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UNFingerprintProvider",
         "printedName": "UNFingerprintProvider",
@@ -615,16 +598,6 @@
             "usr": "s:SH",
             "mangledName": "$sSH"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -858,6 +831,33 @@
             "mangledName": "$ss8CopyableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FraudForce",
+        "printedName": "FraudForce",
+        "declKind": "Import",
+        "moduleName": "UnitFraud"
       },
       {
         "kind": "Import",
