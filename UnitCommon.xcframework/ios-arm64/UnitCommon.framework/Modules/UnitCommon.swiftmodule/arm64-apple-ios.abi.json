@@ -6,15 +6,14 @@
     "children": [
       {
         "kind": "TypeDecl",
-        "name": "UnitCommonSDK",
-        "printedName": "UnitCommonSDK",
+        "name": "UnitCommon",
+        "printedName": "UnitCommon",
         "declKind": "Class",
-        "usr": "s:10UnitCommon0aB3SDKC",
-        "mangledName": "$s10UnitCommon0aB3SDKC",
+        "usr": "s:10UnitCommonAAC",
+        "mangledName": "$s10UnitCommonAAC",
         "moduleName": "UnitCommon",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -36,14 +35,15 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UnitCommon",
-        "printedName": "UnitCommon",
+        "name": "UnitCommonSDK",
+        "printedName": "UnitCommonSDK",
         "declKind": "Class",
-        "usr": "s:10UnitCommonAAC",
-        "mangledName": "$s10UnitCommonAAC",
+        "usr": "s:10UnitCommon0aB3SDKC",
+        "mangledName": "$s10UnitCommon0aB3SDKC",
         "moduleName": "UnitCommon",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [

@@ -139,16 +139,6 @@
       },
       {
         "kind": "Import",
-        "name": "FraudForce",
-        "printedName": "FraudForce",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -156,13 +146,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceRisk",
-        "printedName": "DeviceRisk",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
       },
       {
         "kind": "Import",

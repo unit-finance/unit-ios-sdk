@@ -5,6 +5,17 @@
     "printedName": "UnitSDK",
     "children": [
       {
+        "kind": "Import",
+        "name": "UnitFraud",
+        "printedName": "UnitFraud",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UNSDKError",
         "printedName": "UNSDKError",
@@ -485,17 +496,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UnitFraud",
-        "printedName": "UnitFraud",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "Exported",
-          "RawDocComment"
         ]
       }
     ],
