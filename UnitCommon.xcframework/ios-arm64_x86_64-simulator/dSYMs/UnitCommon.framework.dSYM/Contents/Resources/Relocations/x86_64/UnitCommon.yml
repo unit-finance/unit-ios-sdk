@@ -4,9 +4,9 @@ binary-path:     '/Users/runner/Library/Developer/Xcode/DerivedData/UnitSDK-Deve
 relocations:
   - { offset: 0x34E54, size: 0x8, addend: 0x0, symName: _UnitCommonVersionString, symObjAddr: 0x0, symBinAddr: 0x1AB0, symSize: 0x0 }
   - { offset: 0x34E89, size: 0x8, addend: 0x0, symName: _UnitCommonVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1AE8, symSize: 0x0 }
-  - { offset: 0x34EC6, size: 0x8, addend: 0x0, symName: '_$s10UnitCommonAACfd', symObjAddr: 0x0, symBinAddr: 0xB90, symSize: 0x10 }
-  - { offset: 0x34F17, size: 0x8, addend: 0x0, symName: '_$s10UnitCommonAACMa', symObjAddr: 0x30, symBinAddr: 0xBC0, symSize: 0x20 }
-  - { offset: 0x34F39, size: 0x8, addend: 0x0, symName: '_$s10UnitCommonAACfd', symObjAddr: 0x0, symBinAddr: 0xB90, symSize: 0x10 }
-  - { offset: 0x34F64, size: 0x8, addend: 0x0, symName: '_$s10UnitCommonAACfD', symObjAddr: 0x10, symBinAddr: 0xBA0, symSize: 0x20 }
-  - { offset: 0x35019, size: 0x8, addend: 0x0, symName: '_$s10UnitCommon0aB3SDKCMa', symObjAddr: 0x30, symBinAddr: 0xC00, symSize: 0x20 }
+  - { offset: 0x34EC6, size: 0x8, addend: 0x0, symName: '_$s10UnitCommon0aB3SDKCfd', symObjAddr: 0x0, symBinAddr: 0xB90, symSize: 0x10 }
+  - { offset: 0x34F17, size: 0x8, addend: 0x0, symName: '_$s10UnitCommon0aB3SDKCMa', symObjAddr: 0x30, symBinAddr: 0xBC0, symSize: 0x20 }
+  - { offset: 0x34F39, size: 0x8, addend: 0x0, symName: '_$s10UnitCommon0aB3SDKCfd', symObjAddr: 0x0, symBinAddr: 0xB90, symSize: 0x10 }
+  - { offset: 0x34F64, size: 0x8, addend: 0x0, symName: '_$s10UnitCommon0aB3SDKCfD', symObjAddr: 0x10, symBinAddr: 0xBA0, symSize: 0x20 }
+  - { offset: 0x35019, size: 0x8, addend: 0x0, symName: '_$s10UnitCommonAACMa', symObjAddr: 0x30, symBinAddr: 0xC00, symSize: 0x20 }
 ...

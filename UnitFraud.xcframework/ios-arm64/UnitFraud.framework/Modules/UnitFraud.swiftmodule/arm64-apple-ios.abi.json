@@ -124,16 +124,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "UNFraudManagerProtocol",
         "printedName": "UNFraudManagerProtocol",
@@ -258,30 +248,6 @@
       },
       {
         "kind": "Import",
-        "name": "FraudForce",
-        "printedName": "FraudForce",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceRisk",
-        "printedName": "DeviceRisk",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -370,6 +336,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -754,6 +730,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "FraudForce",
+        "printedName": "FraudForce",
+        "declKind": "Import",
+        "moduleName": "UnitFraud"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UNFingerprintProvider",
         "printedName": "UNFingerprintProvider",
@@ -967,6 +950,23 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceRisk",
+        "printedName": "DeviceRisk",
+        "declKind": "Import",
+        "moduleName": "UnitFraud"
       }
     ],
     "json_format_version": 8
