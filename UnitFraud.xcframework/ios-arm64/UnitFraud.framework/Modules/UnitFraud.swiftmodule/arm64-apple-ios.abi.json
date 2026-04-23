@@ -16,173 +16,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UNFraudManagerProtocol",
-        "printedName": "UNFraudManagerProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9UnitFraud22UNFraudManagerProtocolP10initializeyyF",
-            "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP10initializeyyF",
-            "moduleName": "UnitFraud",
-            "genericSig": "<τ_0_0 where τ_0_0 : UnitFraud.UNFraudManagerProtocol>",
-            "sugared_genericSig": "<Self where Self : UnitFraud.UNFraudManagerProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDeviceFingerprint",
-            "printedName": "getDeviceFingerprint(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[UnitFraud.UNFingerprintResult]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UNFingerprintResult",
-                            "printedName": "UnitFraud.UNFingerprintResult",
-                            "usr": "s:9UnitFraud19UNFingerprintResultV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNFingerprintError",
-                        "printedName": "UnitFraud.UNFingerprintError",
-                        "usr": "s:9UnitFraud18UNFingerprintErrorO"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9UnitFraud22UNFraudManagerProtocolP20getDeviceFingerprint10completionyys6ResultOySayAA013UNFingerprintJ0VGAA0K5ErrorOGc_tF",
-            "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP20getDeviceFingerprint10completionyys6ResultOySayAA013UNFingerprintJ0VGAA0K5ErrorOGc_tF",
-            "moduleName": "UnitFraud",
-            "genericSig": "<τ_0_0 where τ_0_0 : UnitFraud.UNFraudManagerProtocol>",
-            "sugared_genericSig": "<Self where Self : UnitFraud.UNFraudManagerProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:9UnitFraud22UNFraudManagerProtocolP",
-        "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "FraudForce",
-        "printedName": "FraudForce",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DeviceRisk",
-        "printedName": "DeviceRisk",
-        "declKind": "Import",
-        "moduleName": "UnitFraud"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UnitFraudSDK",
         "printedName": "UnitFraudSDK",
         "children": [
@@ -262,6 +95,33 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FraudForce",
+        "printedName": "FraudForce",
+        "declKind": "Import",
+        "moduleName": "UnitFraud"
       },
       {
         "kind": "TypeDecl",
@@ -966,6 +826,146 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceRisk",
+        "printedName": "DeviceRisk",
+        "declKind": "Import",
+        "moduleName": "UnitFraud"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNFraudManagerProtocol",
+        "printedName": "UNFraudManagerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UnitFraud22UNFraudManagerProtocolP10initializeyyF",
+            "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP10initializeyyF",
+            "moduleName": "UnitFraud",
+            "genericSig": "<τ_0_0 where τ_0_0 : UnitFraud.UNFraudManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : UnitFraud.UNFraudManagerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceFingerprint",
+            "printedName": "getDeviceFingerprint(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[UnitFraud.UNFingerprintResult], UnitFraud.UNFingerprintError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UnitFraud.UNFingerprintResult]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UNFingerprintResult",
+                            "printedName": "UnitFraud.UNFingerprintResult",
+                            "usr": "s:9UnitFraud19UNFingerprintResultV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNFingerprintError",
+                        "printedName": "UnitFraud.UNFingerprintError",
+                        "usr": "s:9UnitFraud18UNFingerprintErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UnitFraud22UNFraudManagerProtocolP20getDeviceFingerprint10completionyys6ResultOySayAA013UNFingerprintJ0VGAA0K5ErrorOGc_tF",
+            "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP20getDeviceFingerprint10completionyys6ResultOySayAA013UNFingerprintJ0VGAA0K5ErrorOGc_tF",
+            "moduleName": "UnitFraud",
+            "genericSig": "<τ_0_0 where τ_0_0 : UnitFraud.UNFraudManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : UnitFraud.UNFraudManagerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9UnitFraud22UNFraudManagerProtocolP",
+        "mangledName": "$s9UnitFraud22UNFraudManagerProtocolP",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
         ]
       }
     ],

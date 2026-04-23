@@ -49,17 +49,17 @@ relocations:
   - { offset: 0x34148, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK10UNSDKErrorO9hashValueSivg', symObjAddr: 0x42C, symBinAddr: 0x146C, symSize: 0x40 }
   - { offset: 0x341F9, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK10UNSDKErrorO4fromACs7Decoder_p_tKcfC', symObjAddr: 0x46C, symBinAddr: 0x14AC, symSize: 0x238 }
   - { offset: 0x34295, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK10UNSDKErrorOSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x79C, symBinAddr: 0x1794, symSize: 0x14 }
-  - { offset: 0x34373, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7manager_WZ', symObjAddr: 0x0, symBinAddr: 0x1A3C, symSize: 0x68 }
-  - { offset: 0x34397, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ', symObjAddr: 0x148, symBinAddr: 0x81B8, symSize: 0x0 }
-  - { offset: 0x343EA, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7manager_WZ', symObjAddr: 0x0, symBinAddr: 0x1A3C, symSize: 0x68 }
-  - { offset: 0x3449A, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK20UNSDKManagerProtocol_pWOc', symObjAddr: 0xC0, symBinAddr: 0x1AFC, symSize: 0x44 }
-  - { offset: 0x344AE, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0CMa', symObjAddr: 0x11C, symBinAddr: 0x1B58, symSize: 0x20 }
-  - { offset: 0x3450D, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ', symObjAddr: 0x68, symBinAddr: 0x1AA4, symSize: 0x58 }
-  - { offset: 0x3453A, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0Cfd', symObjAddr: 0x104, symBinAddr: 0x1B40, symSize: 0x8 }
-  - { offset: 0x34565, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0CfD', symObjAddr: 0x10C, symBinAddr: 0x1B48, symSize: 0x10 }
-  - { offset: 0x3462B, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCfD', symObjAddr: 0x0, symBinAddr: 0x1B84, symSize: 0x24 }
-  - { offset: 0x346CE, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCMa', symObjAddr: 0x24, symBinAddr: 0x1BA8, symSize: 0x20 }
-  - { offset: 0x3470F, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCfD', symObjAddr: 0x0, symBinAddr: 0x1B84, symSize: 0x24 }
-  - { offset: 0x34757, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCAA0C8ProtocolA2aDP10initializeyyFTW', symObjAddr: 0x44, symBinAddr: 0x1BC8, symSize: 0x64 }
-  - { offset: 0x34799, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCAA0C8ProtocolA2aDP5fraud0A5Fraud014UNFraudManagerD0_pvgTW', symObjAddr: 0xA8, symBinAddr: 0x1C2C, symSize: 0x10 }
+  - { offset: 0x34373, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCfD', symObjAddr: 0x0, symBinAddr: 0x1A3C, symSize: 0x24 }
+  - { offset: 0x34416, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCMa', symObjAddr: 0x24, symBinAddr: 0x1A60, symSize: 0x20 }
+  - { offset: 0x3442A, size: 0x8, addend: 0x0, symName: '_$s9UnitFraud22UNFraudManagerProtocol_pWOc', symObjAddr: 0xB8, symBinAddr: 0x1AF4, symSize: 0x44 }
+  - { offset: 0x3446B, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCfD', symObjAddr: 0x0, symBinAddr: 0x1A3C, symSize: 0x24 }
+  - { offset: 0x344B3, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCAA0C8ProtocolA2aDP10initializeyyFTW', symObjAddr: 0x44, symBinAddr: 0x1A80, symSize: 0x64 }
+  - { offset: 0x344F5, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK12UNSDKManagerCAA0C8ProtocolA2aDP5fraud0A5Fraud014UNFraudManagerD0_pvgTW', symObjAddr: 0xA8, symBinAddr: 0x1AE4, symSize: 0x10 }
+  - { offset: 0x345AC, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7manager_WZ', symObjAddr: 0x0, symBinAddr: 0x1B38, symSize: 0x68 }
+  - { offset: 0x345D0, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvpZ', symObjAddr: 0x148, symBinAddr: 0x8278, symSize: 0x0 }
+  - { offset: 0x34623, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7manager_WZ', symObjAddr: 0x0, symBinAddr: 0x1B38, symSize: 0x68 }
+  - { offset: 0x346D3, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0CMa', symObjAddr: 0x11C, symBinAddr: 0x1C10, symSize: 0x20 }
+  - { offset: 0x34732, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0C7managerAA20UNSDKManagerProtocol_pvgZ', symObjAddr: 0x68, symBinAddr: 0x1BA0, symSize: 0x58 }
+  - { offset: 0x3475F, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0Cfd', symObjAddr: 0x104, symBinAddr: 0x1BF8, symSize: 0x8 }
+  - { offset: 0x3478A, size: 0x8, addend: 0x0, symName: '_$s7UnitSDK0A0CfD', symObjAddr: 0x10C, symBinAddr: 0x1C00, symSize: 0x10 }
 ...
