@@ -27,7 +27,7 @@ let package = Package(
                 .target(name: "UnitFraud",  condition: .when(platforms: [.iOS])),
                 .product(name: "DeviceRisk", package: "socure-sigmadevice-sdk-ios"),
             ],
-            path: "Sources/UnitFraudWrapper"
+            path: "UnitFraudWrapper"
         ),
         .target(
             name: "UnitSDKWrapper",
@@ -37,7 +37,7 @@ let package = Package(
                 .target(name: "UnitSDK",    condition: .when(platforms: [.iOS])),
                 .product(name: "DeviceRisk", package: "socure-sigmadevice-sdk-ios"),
             ],
-            path: "Sources/UnitSDKWrapper"
+            path: "UnitSDKWrapper"
         ),
     ]
 )
