@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SigmaDevice",
+        "repositoryURL": "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
+        "state": {
+          "branch": null,
+          "revision": "092792fa4b24d188f9b4580cc03dee10ff5b44de",
+          "version": "4.8.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
