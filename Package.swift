@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
@@ -15,7 +15,8 @@ let package = Package(
         .package(
             url: "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
             .upToNextMinor(from: "4.8.1")
-        )
+        ),
+        .package(url: "https://github.com/unit-finance/unit-ios-push-provisioning.git", branch: "feat/initial-release")
     ],
     targets: [
         .binaryTarget(name: "UnitCommon", path: "UnitCommon.xcframework"),
@@ -37,6 +38,7 @@ let package = Package(
                 .target(name: "UnitFraud",  condition: .when(platforms: [.iOS])),
                 .target(name: "UnitSDK",    condition: .when(platforms: [.iOS])),
                 .product(name: "DeviceRisk", package: "socure-sigmadevice-sdk-ios"),
+                .product(name: "UnitPushProvisioning", package: "unit-ios-push-provisioning"),
             ],
             path: "UnitSDKWrapper"
         ),
