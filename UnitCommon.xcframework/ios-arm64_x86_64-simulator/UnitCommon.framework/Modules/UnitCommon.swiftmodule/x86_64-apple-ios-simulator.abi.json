@@ -5,17 +5,140 @@
     "printedName": "UnitCommon",
     "children": [
       {
-        "kind": "TypeDecl",
-        "name": "UnitCommon",
-        "printedName": "UnitCommon",
-        "declKind": "Class",
-        "usr": "s:10UnitCommonAAC",
-        "mangledName": "$s10UnitCommonAAC",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "UnitCommon",
         "declAttributes": [
-          "AccessControl"
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNVPIssuerCardInfo",
+        "printedName": "UNVPIssuerCardInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "last4Digits",
+            "printedName": "last4Digits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo(py)last4Digits",
+            "mangledName": "$s10UnitCommon18UNVPIssuerCardInfoC11last4DigitsSSvp",
+            "moduleName": "UnitCommon",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo(im)last4Digits",
+                "mangledName": "$s10UnitCommon18UNVPIssuerCardInfoC11last4DigitsSSvg",
+                "moduleName": "UnitCommon",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(last4Digits:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNVPIssuerCardInfo",
+                "printedName": "UnitCommon.UNVPIssuerCardInfo",
+                "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo(im)initWithLast4Digits:",
+            "mangledName": "$s10UnitCommon18UNVPIssuerCardInfoC11last4DigitsACSS_tcfc",
+            "moduleName": "UnitCommon",
+            "objc_name": "initWithLast4Digits:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNVPIssuerCardInfo",
+                "printedName": "UnitCommon.UNVPIssuerCardInfo",
+                "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo(im)init",
+            "mangledName": "$s10UnitCommon18UNVPIssuerCardInfoCACycfc",
+            "moduleName": "UnitCommon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
         ],
-        "hasMissingDesignatedInitializers": true,
+        "declKind": "Class",
+        "usr": "c:@M@UnitCommon@objc(cs)UNVPIssuerCardInfo",
+        "mangledName": "$s10UnitCommon18UNVPIssuerCardInfoC",
+        "moduleName": "UnitCommon",
+        "objc_name": "UNVPIssuerCardInfo",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -30,6 +153,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
