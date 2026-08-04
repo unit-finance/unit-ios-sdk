@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(name: "UnitFraud", targets: ["UnitFraudWrapper"]),
         .library(name: "UnitSDK",   targets: ["UnitSDKWrapper"]),
+        .library(name: "UnitCommon", targets: ["UnitCommon"]),
     ],
     dependencies: [
         .package(
