@@ -16,7 +16,7 @@ let package = Package(
             url: "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
             .upToNextMinor(from: "4.8.1")
         ),
-        .package(url: "https://github.com/unit-finance/unit-ios-push-provisioning.git", branch: "feat/initial-release")
+        .package(url: "https://github.com/unit-finance/unit-ios-push-provisioning.git", branch: "UD-16693/push-provisioning-sdk-implementation")
     ],
     targets: [
         .binaryTarget(name: "UnitCommon", path: "UnitCommon.xcframework"),
