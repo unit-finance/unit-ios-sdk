@@ -1,15 +1,118 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UnitCommon
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import Foundation
 import Swift
+import UIKit
 @_exported import UnitCommon
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class UnitCommon {
+@objc public enum UNVisaInAppEnvironment : Swift.Int {
+  case sandbox
+  case production
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum UNVPProvisionStatus : Swift.Int {
+  case readyToProvision = 0
+  case alreadyProvisioned = 1
+  case notAvailable = 2
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol UNEndpoint {
+  var method: UnitCommon.UNHTTPMethod { get }
+  var path: Swift.String { get }
+  var isSecured: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var headers: [Swift.String : Swift.String]? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var body: Foundation.Data? { get }
+  #endif
+}
+extension UnitCommon.UNEndpoint {
+  public var isSecured: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var headers: [Swift.String : Swift.String]? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var body: Foundation.Data? {
+    get
+  }
+  #endif
+}
+@objc public enum UNEnvironment : Swift.Int {
+  case sandbox
+  case production
+  public func baseURL(secured: Swift.Bool = false) -> Foundation.URL
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+final public class UNHTTPClient {
+  public init(environment: UnitCommon.UNEnvironment, session: Foundation.URLSession = .shared)
+  @discardableResult
+  final public func send(_ endpoint: any UnitCommon.UNEndpoint) async throws -> Foundation.Data
+  final public func send<T>(_ endpoint: any UnitCommon.UNEndpoint, as type: T.Type, decoder: Foundation.JSONDecoder = JSONDecoder()) async throws -> T where T : Swift.Decodable
   @objc deinit
+}
+public enum UNHTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum UNNetworkError : Swift.Error {
+  case invalidResponse
+  case http(statusCode: Swift.Int, data: Foundation.Data?)
+  case decoding(any Swift.Error)
+}
+extension UIKit.UIApplication {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func topViewController(base: UIKit.UIViewController? = nil) -> UIKit.UIViewController?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class UnitCommonSDK {
   @objc deinit
 }
+extension UnitCommon.UNVisaInAppEnvironment : Swift.Equatable {}
+extension UnitCommon.UNVisaInAppEnvironment : Swift.Hashable {}
+extension UnitCommon.UNVisaInAppEnvironment : Swift.RawRepresentable {}
+extension UnitCommon.UNVPProvisionStatus : Swift.Equatable {}
+extension UnitCommon.UNVPProvisionStatus : Swift.Hashable {}
+extension UnitCommon.UNVPProvisionStatus : Swift.RawRepresentable {}
+extension UnitCommon.UNEnvironment : Swift.Equatable {}
+extension UnitCommon.UNEnvironment : Swift.Hashable {}
+extension UnitCommon.UNEnvironment : Swift.RawRepresentable {}
+extension UnitCommon.UNHTTPMethod : Swift.Equatable {}
+extension UnitCommon.UNHTTPMethod : Swift.Hashable {}
+extension UnitCommon.UNHTTPMethod : Swift.RawRepresentable {}
