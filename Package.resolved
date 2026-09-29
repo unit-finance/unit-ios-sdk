@@ -1,5 +1,5 @@
 {
-  "originHash" : "578eccceacc2d5030a79556846d4c665f19ea4ba4c63143b08ecd6e082ef1087",
+  "originHash" : "fca3e8246fa9754a237a077e92870a051b5908ffb548fbe1ce474d8f5c3b61ba",
   "pins" : [
     {
       "identity" : "socure-sigmadevice-sdk-ios",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/unit-finance/unit-ios-push-provisioning.git",
       "state" : {
-        "branch" : "feat/initial-release",
-        "revision" : "c331aadd35424f7395b4a66b973689eee107771a"
+        "revision" : "8a8dbc51474adf2dcb8599ec4937037e58f652b2",
+        "version" : "5.6.0"
       }
     }
   ],
