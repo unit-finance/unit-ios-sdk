@@ -4,7 +4,9 @@
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import Foundation
 import Swift
+@_exported import UnitCommon
 @_exported import UnitFraud
+@_exported import UnitPushProvisioning
 @_exported import UnitSDK
 import _Concurrency
 import _StringProcessing
@@ -25,6 +27,7 @@ public enum UNSDKError : Swift.Error, Swift.Codable {
 public protocol UNSDKManagerProtocol {
   func initialize()
   var fraud: any UnitFraud.UNFraudManagerProtocol { get }
+  var pushProvisioning: any UnitPushProvisioning.UNPushProvisioningManagerProtocol { get }
 }
 @_hasMissingDesignatedInitializers public class Unit {
   public static let manager: any UnitSDK.UNSDKManagerProtocol

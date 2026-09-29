@@ -368,6 +368,48 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushProvisioning",
+            "printedName": "pushProvisioning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNPushProvisioningManagerProtocol",
+                "printedName": "any UnitPushProvisioning.UNPushProvisioningManagerProtocol",
+                "usr": "s:20UnitPushProvisioning06UNPushC15ManagerProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7UnitSDK20UNSDKManagerProtocolP16pushProvisioning0a4PushF006UNPushf7ManagerD0_pvp",
+            "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP16pushProvisioning0a4PushF006UNPushf7ManagerD0_pvp",
+            "moduleName": "UnitSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNPushProvisioningManagerProtocol",
+                    "printedName": "any UnitPushProvisioning.UNPushProvisioningManagerProtocol",
+                    "usr": "s:20UnitPushProvisioning06UNPushC15ManagerProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7UnitSDK20UNSDKManagerProtocolP16pushProvisioning0a4PushF006UNPushf7ManagerD0_pvg",
+                "mangledName": "$s7UnitSDK20UNSDKManagerProtocolP16pushProvisioning0a4PushF006UNPushf7ManagerD0_pvg",
+                "moduleName": "UnitSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UnitSDK.UNSDKManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : UnitSDK.UNSDKManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Protocol",
@@ -489,13 +531,33 @@
       },
       {
         "kind": "Import",
-        "name": "UnitFraud",
-        "printedName": "UnitFraud",
+        "name": "UnitCommon",
+        "printedName": "UnitCommon",
         "declKind": "Import",
         "moduleName": "UnitSDK",
         "declAttributes": [
           "Exported",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitFraud",
+        "printedName": "UnitFraud",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitPushProvisioning",
+        "printedName": "UnitPushProvisioning",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported"
         ]
       }
     ],

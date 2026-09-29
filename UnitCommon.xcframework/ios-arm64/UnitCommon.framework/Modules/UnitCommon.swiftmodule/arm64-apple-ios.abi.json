@@ -6,6 +6,46 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnitCommonSDK",
+        "printedName": "UnitCommonSDK",
+        "declKind": "Class",
+        "usr": "s:10UnitCommon0aB3SDKC",
+        "mangledName": "$s10UnitCommon0aB3SDKC",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -584,9 +624,6 @@
             "mangledName": "$s10UnitCommon10UNEndpointP4pathSSvp",
             "moduleName": "UnitCommon",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -629,9 +666,6 @@
             "mangledName": "$s10UnitCommon10UNEndpointP9isSecuredSbvp",
             "moduleName": "UnitCommon",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -990,8 +1024,7 @@
         "mangledName": "$s10UnitCommon10UNEndpointP",
         "moduleName": "UnitCommon",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -1131,8 +1164,7 @@
             "mangledName": "$s10UnitCommon13UNEnvironmentO7baseURL7secured10Foundation0E0VSb_tF",
             "moduleName": "UnitCommon",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1215,8 +1247,7 @@
         "moduleName": "UnitCommon",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "RawDocComment"
+          "ObjC"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -1346,8 +1377,7 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
+              "DiscardableResult"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -1396,8 +1426,7 @@
             "sugared_genericSig": "<T where T : Swift.Decodable>",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -1409,8 +1438,7 @@
         "moduleName": "UnitCommon",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -1813,10 +1841,7 @@
             "declKind": "EnumElement",
             "usr": "s:10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
             "mangledName": "$s10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "UnitCommon"
           },
           {
             "kind": "Var",
@@ -1887,10 +1912,7 @@
             "declKind": "EnumElement",
             "usr": "s:10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
             "mangledName": "$s10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "UnitCommon"
           },
           {
             "kind": "Var",
@@ -1940,10 +1962,7 @@
             "declKind": "EnumElement",
             "usr": "s:10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
             "mangledName": "$s10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "UnitCommon"
           }
         ],
         "declKind": "Enum",
@@ -1981,53 +2000,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UnitCommonSDK",
-        "printedName": "UnitCommonSDK",
-        "declKind": "Class",
-        "usr": "s:10UnitCommon0aB3SDKC",
-        "mangledName": "$s10UnitCommon0aB3SDKC",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2175,77 +2147,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVisaInAppEnvironment.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVisaInAppEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 148,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 423,
+      "offset": 375,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 455,
+      "offset": 407,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 433,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
       "kind": "IntegerLiteral",
-      "offset": 183,
+      "offset": 130,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
       "kind": "BooleanLiteral",
-      "offset": 378,
+      "offset": 182,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 8,
