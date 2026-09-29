@@ -16,6 +16,746 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UNHTTPClient",
+        "printedName": "UNHTTPClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNHTTPClient",
+                "printedName": "UnitCommon.UNHTTPClient",
+                "usr": "s:10UnitCommon12UNHTTPClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNEnvironment",
+                "printedName": "UnitCommon.UNEnvironment",
+                "usr": "c:@M@UnitCommon@E@UNEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10UnitCommon12UNHTTPClientC11environment7sessionAcA13UNEnvironmentO_So12NSURLSessionCtcfc",
+            "mangledName": "$s10UnitCommon12UNHTTPClientC11environment7sessionAcA13UNEnvironmentO_So12NSURLSessionCtcfc",
+            "moduleName": "UnitCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNEndpoint",
+                "printedName": "any UnitCommon.UNEndpoint",
+                "usr": "s:10UnitCommon10UNEndpointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10UnitCommon12UNHTTPClientC4sendy10Foundation4DataVAA10UNEndpoint_pYaKF",
+            "mangledName": "$s10UnitCommon12UNHTTPClientC4sendy10Foundation4DataVAA10UNEndpoint_pYaKF",
+            "moduleName": "UnitCommon",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:as:decoder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNEndpoint",
+                "printedName": "any UnitCommon.UNEndpoint",
+                "usr": "s:10UnitCommon10UNEndpointP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation11JSONDecoderC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10UnitCommon12UNHTTPClientC4send_2as7decoderxAA10UNEndpoint_p_xm10Foundation11JSONDecoderCtYaKSeRzlF",
+            "mangledName": "$s10UnitCommon12UNHTTPClientC4send_2as7decoderxAA10UNEndpoint_p_xm10Foundation11JSONDecoderCtYaKSeRzlF",
+            "moduleName": "UnitCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10UnitCommon12UNHTTPClientC",
+        "mangledName": "$s10UnitCommon12UNHTTPClientC",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNHTTPMethod",
+        "printedName": "UNHTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNHTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNHTTPMethod",
+                        "printedName": "UnitCommon.UNHTTPMethod",
+                        "usr": "s:10UnitCommon12UNHTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon12UNHTTPMethodO3getyA2CmF",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO3getyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNHTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNHTTPMethod",
+                        "printedName": "UnitCommon.UNHTTPMethod",
+                        "usr": "s:10UnitCommon12UNHTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon12UNHTTPMethodO4postyA2CmF",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO4postyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNHTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNHTTPMethod",
+                        "printedName": "UnitCommon.UNHTTPMethod",
+                        "usr": "s:10UnitCommon12UNHTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon12UNHTTPMethodO3putyA2CmF",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO3putyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNHTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNHTTPMethod",
+                        "printedName": "UnitCommon.UNHTTPMethod",
+                        "usr": "s:10UnitCommon12UNHTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon12UNHTTPMethodO5patchyA2CmF",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO5patchyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNHTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNHTTPMethod",
+                        "printedName": "UnitCommon.UNHTTPMethod",
+                        "usr": "s:10UnitCommon12UNHTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon12UNHTTPMethodO6deleteyA2CmF",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO6deleteyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UnitCommon.UNHTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNHTTPMethod",
+                    "printedName": "UnitCommon.UNHTTPMethod",
+                    "usr": "s:10UnitCommon12UNHTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "UnitCommon",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueSSvp",
+            "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueSSvp",
+            "moduleName": "UnitCommon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueSSvg",
+                "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueSSvg",
+                "moduleName": "UnitCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10UnitCommon12UNHTTPMethodO",
+        "mangledName": "$s10UnitCommon12UNHTTPMethodO",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UNNetworkError",
+        "printedName": "UNNetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNNetworkError.Type) -> UnitCommon.UNNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNetworkError",
+                    "printedName": "UnitCommon.UNNetworkError",
+                    "usr": "s:10UnitCommon14UNNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNetworkError",
+                        "printedName": "UnitCommon.UNNetworkError",
+                        "usr": "s:10UnitCommon14UNNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "http",
+            "printedName": "http",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNNetworkError.Type) -> (Swift.Int, Foundation.Data?) -> UnitCommon.UNNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data?) -> UnitCommon.UNNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNetworkError",
+                        "printedName": "UnitCommon.UNNetworkError",
+                        "usr": "s:10UnitCommon14UNNetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Data?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNetworkError",
+                        "printedName": "UnitCommon.UNNetworkError",
+                        "usr": "s:10UnitCommon14UNNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
+            "mangledName": "$s10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
+            "moduleName": "UnitCommon"
+          },
+          {
+            "kind": "Var",
+            "name": "decoding",
+            "printedName": "decoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UnitCommon.UNNetworkError.Type) -> (any Swift.Error) -> UnitCommon.UNNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> UnitCommon.UNNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNetworkError",
+                        "printedName": "UnitCommon.UNNetworkError",
+                        "usr": "s:10UnitCommon14UNNetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UnitCommon.UNNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNetworkError",
+                        "printedName": "UnitCommon.UNNetworkError",
+                        "usr": "s:10UnitCommon14UNNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
+            "mangledName": "$s10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
+            "moduleName": "UnitCommon"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10UnitCommon14UNNetworkErrorO",
+        "mangledName": "$s10UnitCommon14UNNetworkErrorO",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnitCommonSDK",
+        "printedName": "UnitCommonSDK",
+        "declKind": "Class",
+        "usr": "s:10UnitCommon0aB3SDKC",
+        "mangledName": "$s10UnitCommon0aB3SDKC",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UNVisaInAppEnvironment",
         "printedName": "UNVisaInAppEnvironment",
         "children": [
@@ -584,9 +1324,6 @@
             "mangledName": "$s10UnitCommon10UNEndpointP4pathSSvp",
             "moduleName": "UnitCommon",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -629,9 +1366,6 @@
             "mangledName": "$s10UnitCommon10UNEndpointP9isSecuredSbvp",
             "moduleName": "UnitCommon",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -990,8 +1724,7 @@
         "mangledName": "$s10UnitCommon10UNEndpointP",
         "moduleName": "UnitCommon",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -1131,8 +1864,7 @@
             "mangledName": "$s10UnitCommon13UNEnvironmentO7baseURL7secured10Foundation0E0VSb_tF",
             "moduleName": "UnitCommon",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1215,8 +1947,7 @@
         "moduleName": "UnitCommon",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "RawDocComment"
+          "ObjC"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -1269,765 +2000,6 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UNHTTPClient",
-        "printedName": "UNHTTPClient",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(environment:session:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UNHTTPClient",
-                "printedName": "UnitCommon.UNHTTPClient",
-                "usr": "s:10UnitCommon12UNHTTPClientC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UNEnvironment",
-                "printedName": "UnitCommon.UNEnvironment",
-                "usr": "c:@M@UnitCommon@E@UNEnvironment"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLSession",
-                "printedName": "Foundation.URLSession",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)NSURLSession"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10UnitCommon12UNHTTPClientC11environment7sessionAcA13UNEnvironmentO_So12NSURLSessionCtcfc",
-            "mangledName": "$s10UnitCommon12UNHTTPClientC11environment7sessionAcA13UNEnvironmentO_So12NSURLSessionCtcfc",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "send",
-            "printedName": "send(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UNEndpoint",
-                "printedName": "any UnitCommon.UNEndpoint",
-                "usr": "s:10UnitCommon10UNEndpointP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10UnitCommon12UNHTTPClientC4sendy10Foundation4DataVAA10UNEndpoint_pYaKF",
-            "mangledName": "$s10UnitCommon12UNHTTPClientC4sendy10Foundation4DataVAA10UNEndpoint_pYaKF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "send",
-            "printedName": "send(_:as:decoder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UNEndpoint",
-                "printedName": "any UnitCommon.UNEndpoint",
-                "usr": "s:10UnitCommon10UNEndpointP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Metatype",
-                "printedName": "τ_0_0.Type",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "JSONDecoder",
-                "printedName": "Foundation.JSONDecoder",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation11JSONDecoderC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10UnitCommon12UNHTTPClientC4send_2as7decoderxAA10UNEndpoint_p_xm10Foundation11JSONDecoderCtYaKSeRzlF",
-            "mangledName": "$s10UnitCommon12UNHTTPClientC4send_2as7decoderxAA10UNEndpoint_p_xm10Foundation11JSONDecoderCtYaKSeRzlF",
-            "moduleName": "UnitCommon",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable>",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10UnitCommon12UNHTTPClientC",
-        "mangledName": "$s10UnitCommon12UNHTTPClientC",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UNHTTPMethod",
-        "printedName": "UNHTTPMethod",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "get",
-            "printedName": "get",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNHTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNHTTPMethod",
-                        "printedName": "UnitCommon.UNHTTPMethod",
-                        "usr": "s:10UnitCommon12UNHTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon12UNHTTPMethodO3getyA2CmF",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO3getyA2CmF",
-            "moduleName": "UnitCommon"
-          },
-          {
-            "kind": "Var",
-            "name": "post",
-            "printedName": "post",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNHTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNHTTPMethod",
-                        "printedName": "UnitCommon.UNHTTPMethod",
-                        "usr": "s:10UnitCommon12UNHTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon12UNHTTPMethodO4postyA2CmF",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO4postyA2CmF",
-            "moduleName": "UnitCommon"
-          },
-          {
-            "kind": "Var",
-            "name": "put",
-            "printedName": "put",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNHTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNHTTPMethod",
-                        "printedName": "UnitCommon.UNHTTPMethod",
-                        "usr": "s:10UnitCommon12UNHTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon12UNHTTPMethodO3putyA2CmF",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO3putyA2CmF",
-            "moduleName": "UnitCommon"
-          },
-          {
-            "kind": "Var",
-            "name": "patch",
-            "printedName": "patch",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNHTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNHTTPMethod",
-                        "printedName": "UnitCommon.UNHTTPMethod",
-                        "usr": "s:10UnitCommon12UNHTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon12UNHTTPMethodO5patchyA2CmF",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO5patchyA2CmF",
-            "moduleName": "UnitCommon"
-          },
-          {
-            "kind": "Var",
-            "name": "delete",
-            "printedName": "delete",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNHTTPMethod.Type) -> UnitCommon.UNHTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNHTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNHTTPMethod",
-                        "printedName": "UnitCommon.UNHTTPMethod",
-                        "usr": "s:10UnitCommon12UNHTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon12UNHTTPMethodO6deleteyA2CmF",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO6deleteyA2CmF",
-            "moduleName": "UnitCommon"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UnitCommon.UNHTTPMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNHTTPMethod",
-                    "printedName": "UnitCommon.UNHTTPMethod",
-                    "usr": "s:10UnitCommon12UNHTTPMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueACSgSS_tcfc",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueACSgSS_tcfc",
-            "moduleName": "UnitCommon",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueSSvp",
-            "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueSSvp",
-            "moduleName": "UnitCommon",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10UnitCommon12UNHTTPMethodO8rawValueSSvg",
-                "mangledName": "$s10UnitCommon12UNHTTPMethodO8rawValueSSvg",
-                "moduleName": "UnitCommon",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10UnitCommon12UNHTTPMethodO",
-        "mangledName": "$s10UnitCommon12UNHTTPMethodO",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UNNetworkError",
-        "printedName": "UNNetworkError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "invalidResponse",
-            "printedName": "invalidResponse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNNetworkError.Type) -> UnitCommon.UNNetworkError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UNNetworkError",
-                    "printedName": "UnitCommon.UNNetworkError",
-                    "usr": "s:10UnitCommon14UNNetworkErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNNetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNNetworkError",
-                        "printedName": "UnitCommon.UNNetworkError",
-                        "usr": "s:10UnitCommon14UNNetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
-            "mangledName": "$s10UnitCommon14UNNetworkErrorO15invalidResponseyA2CmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "http",
-            "printedName": "http",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNNetworkError.Type) -> (Swift.Int, Foundation.Data?) -> UnitCommon.UNNetworkError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Foundation.Data?) -> UnitCommon.UNNetworkError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNNetworkError",
-                        "printedName": "UnitCommon.UNNetworkError",
-                        "usr": "s:10UnitCommon14UNNetworkErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Foundation.Data?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Data",
-                                "printedName": "Foundation.Data",
-                                "usr": "s:10Foundation4DataV"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNNetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNNetworkError",
-                        "printedName": "UnitCommon.UNNetworkError",
-                        "usr": "s:10UnitCommon14UNNetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
-            "mangledName": "$s10UnitCommon14UNNetworkErrorO4httpyACSi_10Foundation4DataVSgtcACmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "decoding",
-            "printedName": "decoding",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UnitCommon.UNNetworkError.Type) -> (any Swift.Error) -> UnitCommon.UNNetworkError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> UnitCommon.UNNetworkError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNNetworkError",
-                        "printedName": "UnitCommon.UNNetworkError",
-                        "usr": "s:10UnitCommon14UNNetworkErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "UnitCommon.UNNetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UNNetworkError",
-                        "printedName": "UnitCommon.UNNetworkError",
-                        "usr": "s:10UnitCommon14UNNetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
-            "mangledName": "$s10UnitCommon14UNNetworkErrorO8decodingyACs0D0_pcACmF",
-            "moduleName": "UnitCommon",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10UnitCommon14UNNetworkErrorO",
-        "mangledName": "$s10UnitCommon14UNNetworkErrorO",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UnitCommonSDK",
-        "printedName": "UnitCommonSDK",
-        "declKind": "Class",
-        "usr": "s:10UnitCommon0aB3SDKC",
-        "mangledName": "$s10UnitCommon0aB3SDKC",
-        "moduleName": "UnitCommon",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2175,81 +2147,81 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVisaInAppEnvironment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 148,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 423,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 455,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 481,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 183,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
-      "kind": "BooleanLiteral",
-      "offset": 378,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/temp\/Documents\/Work\/Unit\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNHTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 8,
       "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVisaInAppEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 148,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Models\/UNVPProvisionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 130,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/unit-ios-sdk-development\/unit-ios-sdk-development\/UnitSDK-Development\/UnitCommon\/Networking\/UNEnvironment.swift",
+      "kind": "BooleanLiteral",
+      "offset": 182,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

@@ -9,6 +9,14 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum UNFingerprintProvider {
+  case socure
+  public static func == (a: UnitFraud.UNFingerprintProvider, b: UnitFraud.UNFingerprintProvider) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct UNFingerprintResult {
   public let provider: UnitFraud.UNFingerprintProvider
   public let value: Swift.String
@@ -37,15 +45,7 @@ public enum UNFingerprintError : Swift.Error, Swift.Codable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum UNFingerprintProvider {
-  case socure
-  public static func == (a: UnitFraud.UNFingerprintProvider, b: UnitFraud.UNFingerprintProvider) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension UnitFraud.UNFingerprintError : Swift.Equatable {}
-extension UnitFraud.UNFingerprintError : Swift.Hashable {}
 extension UnitFraud.UNFingerprintProvider : Swift.Equatable {}
 extension UnitFraud.UNFingerprintProvider : Swift.Hashable {}
+extension UnitFraud.UNFingerprintError : Swift.Equatable {}
+extension UnitFraud.UNFingerprintError : Swift.Hashable {}
