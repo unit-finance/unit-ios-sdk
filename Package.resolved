@@ -1,16 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SigmaDevice",
-        "repositoryURL": "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
-        "state": {
-          "branch": null,
-          "revision": "092792fa4b24d188f9b4580cc03dee10ff5b44de",
-          "version": "4.8.1"
-        }
+  "originHash" : "fca3e8246fa9754a237a077e92870a051b5908ffb548fbe1ce474d8f5c3b61ba",
+  "pins" : [
+    {
+      "identity" : "socure-sigmadevice-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
+      "state" : {
+        "revision" : "092792fa4b24d188f9b4580cc03dee10ff5b44de",
+        "version" : "4.8.1"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "unit-ios-push-provisioning",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unit-finance/unit-ios-push-provisioning.git",
+      "state" : {
+        "revision" : "8a8dbc51474adf2dcb8599ec4937037e58f652b2",
+        "version" : "5.6.0"
+      }
+    }
+  ],
+  "version" : 3
 }
