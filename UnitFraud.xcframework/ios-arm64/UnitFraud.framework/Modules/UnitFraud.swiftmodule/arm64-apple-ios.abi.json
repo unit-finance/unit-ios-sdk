@@ -5,6 +5,16 @@
     "printedName": "UnitFraud",
     "children": [
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitFraud",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UNFraudManagerProtocol",
         "printedName": "UNFraudManagerProtocol",
@@ -234,16 +244,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UnitFraud",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
