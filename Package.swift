@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "UnitSDK",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v16)
     ],
     products: [
         .library(name: "UnitFraud", targets: ["UnitFraudWrapper"]),
@@ -16,7 +16,7 @@ let package = Package(
             url: "https://github.com/socure-inc/socure-sigmadevice-sdk-ios",
             .upToNextMinor(from: "4.8.1")
         ),
-        .package(url: "https://github.com/unit-finance/unit-ios-push-provisioning.git", from: "5.6.0")
+        .package(url: "https://github.com/unit-finance/unit-ios-push-provisioning.git", from: "5.12.0")
     ],
     targets: [
         .binaryTarget(name: "UnitCommon", path: "UnitCommon.xcframework"),
