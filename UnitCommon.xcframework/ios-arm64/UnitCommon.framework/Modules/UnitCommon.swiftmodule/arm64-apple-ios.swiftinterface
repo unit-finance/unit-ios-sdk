@@ -10,6 +10,13 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor @preconcurrency public func topViewController(base: UIKit.UIViewController? = nil) -> UIKit.UIViewController?
+}
+public enum UNLocalizedStrings {
+  public static let hostTableName: Swift.String
+  public static func string(forKey key: Swift.String, bundle: Foundation.Bundle) -> Swift.String
+}
 @objc public enum UNVisaInAppEnvironment : Swift.Int {
   case sandbox
   case production
@@ -18,6 +25,34 @@ import _SwiftConcurrencyShims
   public var rawValue: Swift.Int {
     get
   }
+}
+public protocol UNCommonSharedServicesProviding : AnyObject {
+  func errorPublisher() -> any UnitCommon.UNErrorPublishing
+  func customerTokenStore() -> any UnitCommon.UNCustomerTokenStoring
+}
+@_hasMissingDesignatedInitializers final public class UNCommonSharedServicesProvider : UnitCommon.UNCommonSharedServicesProviding {
+  public static let shared: any UnitCommon.UNCommonSharedServicesProviding
+  final public func errorPublisher() -> any UnitCommon.UNErrorPublishing
+  final public func customerTokenStore() -> any UnitCommon.UNCustomerTokenStoring
+  @objc deinit
+}
+@objc public enum UNVPProvisionStatus : Swift.Int {
+  case readyToProvision = 0
+  case alreadyProvisioned = 1
+  case notAvailable = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol UNCustomerTokenStoring : AnyObject {
+  var customerToken: Swift.String? { get set }
+  var customerTokenPublisher: Combine.AnyPublisher<Swift.String?, Swift.Never> { get }
+}
+public protocol UNErrorPublishing : AnyObject {
+  var errors: Combine.AnyPublisher<any Swift.Error, Swift.Never> { get }
+  func send(_ error: any Swift.Error)
 }
 public protocol UNEndpoint {
   var method: UnitCommon.UNHTTPMethod { get }
@@ -37,15 +72,8 @@ extension UnitCommon.UNEndpoint {
     get
   }
 }
-@objc public enum UNVPProvisionStatus : Swift.Int {
-  case readyToProvision = 0
-  case alreadyProvisioned = 1
-  case notAvailable = 2
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
+@_hasMissingDesignatedInitializers public class UnitCommonSDK {
+  @objc deinit
 }
 @objc public enum UNEnvironment : Swift.Int {
   case sandbox
@@ -80,30 +108,6 @@ public enum UNNetworkError : Swift.Error {
   case invalidResponse
   case http(statusCode: Swift.Int, data: Foundation.Data?)
   case decoding(any Swift.Error)
-}
-extension UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public func topViewController(base: UIKit.UIViewController? = nil) -> UIKit.UIViewController?
-}
-public protocol UNCommonSharedServicesProviding : AnyObject {
-  func errorPublisher() -> any UnitCommon.UNErrorPublishing
-  func customerTokenStore() -> any UnitCommon.UNCustomerTokenStoring
-}
-@_hasMissingDesignatedInitializers final public class UNCommonSharedServicesProvider : UnitCommon.UNCommonSharedServicesProviding {
-  public static let shared: any UnitCommon.UNCommonSharedServicesProviding
-  final public func errorPublisher() -> any UnitCommon.UNErrorPublishing
-  final public func customerTokenStore() -> any UnitCommon.UNCustomerTokenStoring
-  @objc deinit
-}
-public protocol UNCustomerTokenStoring : AnyObject {
-  var customerToken: Swift.String? { get set }
-  var customerTokenPublisher: Combine.AnyPublisher<Swift.String?, Swift.Never> { get }
-}
-public protocol UNErrorPublishing : AnyObject {
-  var errors: Combine.AnyPublisher<any Swift.Error, Swift.Never> { get }
-  func send(_ error: any Swift.Error)
-}
-@_hasMissingDesignatedInitializers public class UnitCommonSDK {
-  @objc deinit
 }
 extension UnitCommon.UNVisaInAppEnvironment : Swift.Equatable {}
 extension UnitCommon.UNVisaInAppEnvironment : Swift.Hashable {}
