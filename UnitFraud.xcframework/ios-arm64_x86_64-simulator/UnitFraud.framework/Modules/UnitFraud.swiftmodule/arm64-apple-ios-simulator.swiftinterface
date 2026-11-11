@@ -10,26 +10,6 @@ import UnitCommon
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum UNFingerprintError : Swift.Error, Swift.Codable {
-  case generalError
-  case socureInitializeError
-  case socureProcessDeviceError
-  public var description: Swift.String {
-    get
-  }
-  public static func == (a: UnitFraud.UNFingerprintError, b: UnitFraud.UNFingerprintError) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension UnitFraud.UNFingerprintError : Foundation.LocalizedError {
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
 public enum UNFingerprintProvider {
   case socure
   public static func == (a: UnitFraud.UNFingerprintProvider, b: UnitFraud.UNFingerprintProvider) -> Swift.Bool
@@ -51,7 +31,27 @@ public typealias UNDeviceFingerprintCompletion = (Swift.Result<[UnitFraud.UNFing
   public static let manager: any UnitFraud.UNFraudManagerProtocol
   @objc deinit
 }
-extension UnitFraud.UNFingerprintError : Swift.Equatable {}
-extension UnitFraud.UNFingerprintError : Swift.Hashable {}
+public enum UNFingerprintError : Swift.Error, Swift.Codable {
+  case generalError
+  case socureInitializeError
+  case socureProcessDeviceError
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: UnitFraud.UNFingerprintError, b: UnitFraud.UNFingerprintError) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UnitFraud.UNFingerprintError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 extension UnitFraud.UNFingerprintProvider : Swift.Equatable {}
 extension UnitFraud.UNFingerprintProvider : Swift.Hashable {}
+extension UnitFraud.UNFingerprintError : Swift.Equatable {}
+extension UnitFraud.UNFingerprintError : Swift.Hashable {}
