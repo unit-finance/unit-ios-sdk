@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ie/oG6HRqGQCI03eljjC0pJU+3g=
+		AEqula1qcDeZHM0tSDPFKiZiE6s=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m/uwlFVLie2iuR+QrBOPAa3GAiQ=
+		KqCFncB0iLVeHrIbcPhB7T41nhc=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eLjGRHrf3oxPUoUOuzNGjHgMfwg=
+		QZKDSnTbE2Y4ItJdkmXENqqPruE=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eLjGRHrf3oxPUoUOuzNGjHgMfwg=
+		QZKDSnTbE2Y4ItJdkmXENqqPruE=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5ixDRzdUFQD1AUr1oLuqYkXZIZs=
+		2eH42zgGL9Co4IGHk2vQa05CTIM=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m/uwlFVLie2iuR+QrBOPAa3GAiQ=
+		KqCFncB0iLVeHrIbcPhB7T41nhc=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EN9VS9Ne6iLk5MItvTlctjoBDMY=
+		N61LKW2UGXhe7+Xrpvy6iab32V4=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EN9VS9Ne6iLk5MItvTlctjoBDMY=
+		N61LKW2UGXhe7+Xrpvy6iab32V4=
 		</data>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vvkQhMUpBmUv6IAJZ35gXoXmYlA=
+		DhfxxHYhcj4TZCreZSWB2oBwe1M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,6 +60,15 @@
 		<data>
 		jgzBssRvb1IuMjY6G4g7x/UQt/0=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Oci8yGKkrTtABLQ9LK4p/TQDQUA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -74,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i+0577ofWHPwxwhqwZ421E4O9v2mwI6ja90wg+eh10=
+			Y/YkCeVHsWWdcC2YqjgeBSoiS0yG1MZzMWyMb8BbhLc=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qc7/+Ql9RJLSUExAJtNFjez4In2bDBqcSfip8U51q4=
+			hwFtH3YZmaO2a2z8MtChTCDfem+5aLoraz6lXpZVQmQ=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +104,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qc7/+Ql9RJLSUExAJtNFjez4In2bDBqcSfip8U51q4=
+			hwFtH3YZmaO2a2z8MtChTCDfem+5aLoraz6lXpZVQmQ=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duyUzqDXjKar/oy0EArUGPRfMr2T0zFIh9Yaaj8ij9I=
+			OYdphxfWPyjkZ5r4zu71yCFIJ7uOhJ0GkLNmbBwJyWs=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i+0577ofWHPwxwhqwZ421E4O9v2mwI6ja90wg+eh10=
+			Y/YkCeVHsWWdcC2YqjgeBSoiS0yG1MZzMWyMb8BbhLc=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRqAlH6yyNP88FfOGZNm/7qtS4tbEGft9wXipYe2ESs=
+			GavFr4rM+hcY25/oDj95dlaJKiT2VMS1ApYUC4i56bQ=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRqAlH6yyNP88FfOGZNm/7qtS4tbEGft9wXipYe2ESs=
+			GavFr4rM+hcY25/oDj95dlaJKiT2VMS1ApYUC4i56bQ=
 			</data>
 		</dict>
 		<key>Modules/UnitFraud.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1SjbJG/OIxu8Zyb0NEBYJurGrYbmMNIXT4kxdo3lI8=
+			dbJzXJnRCrOj6jy4k7xLnHFp0RGly2XhmiKv9E0hW3s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -153,6 +162,15 @@
 			<data>
 			W9DUg8OS+qCBj4wSS2SeC2fvxJMwPrJCoFlqAHIBH0Q=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZKaYsjmamKsSkBcBPcRe361gKV2uMl1JtgB/5X1V/IQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

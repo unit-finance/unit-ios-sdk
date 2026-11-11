@@ -6,33 +6,12 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UnitCommon",
-        "printedName": "UnitCommon",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "UnitSDK",
         "declAttributes": [
-          "Exported",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UnitFraud",
-        "printedName": "UnitFraud",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UnitPushProvisioning",
-        "printedName": "UnitPushProvisioning",
-        "declKind": "Import",
-        "moduleName": "UnitSDK",
-        "declAttributes": [
-          "Exported"
         ]
       },
       {
@@ -263,6 +242,64 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7UnitSDK10UNSDKErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s7UnitSDK10UNSDKErrorO16errorDescriptionSSSgvp",
+            "moduleName": "UnitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7UnitSDK10UNSDKErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s7UnitSDK10UNSDKErrorO16errorDescriptionSSSgvg",
+                "moduleName": "UnitSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -270,8 +307,7 @@
         "mangledName": "$s7UnitSDK10UNSDKErrorO",
         "moduleName": "UnitSDK",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -329,6 +365,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
           }
         ]
       },
@@ -559,6 +602,54 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitCommon",
+        "printedName": "UnitCommon",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitFraud",
+        "printedName": "UnitFraud",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitPushProvisioning",
+        "printedName": "UnitPushProvisioning",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnitCommon",
+        "printedName": "UnitCommon",
+        "declKind": "Import",
+        "moduleName": "UnitSDK"
       }
     ],
     "json_format_version": 8

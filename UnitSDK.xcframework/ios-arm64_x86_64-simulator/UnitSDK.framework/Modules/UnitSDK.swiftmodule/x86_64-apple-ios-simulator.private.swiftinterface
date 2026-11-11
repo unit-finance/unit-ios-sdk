@@ -24,6 +24,11 @@ public enum UNSDKError : Swift.Error, Swift.Codable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
+extension UnitSDK.UNSDKError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public protocol UNSDKManagerProtocol {
   func initialize()
   var fraud: any UnitFraud.UNFraudManagerProtocol { get }
